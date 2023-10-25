@@ -1,0 +1,1032 @@
+[
+    {
+        "id": "9a11c264091c9c92",
+        "type": "tab",
+        "label": "Login",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4b95c071edb7dc65",
+        "type": "tab",
+        "label": "Cadastro",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9d0ec4dceb8510b5",
+        "type": "tab",
+        "label": "Dados",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ef026539591a4024",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Casamento",
+                "default": "#4B7930",
+                "baseColor": "#4f5902",
+                "baseFont": "Tahoma,Geneva,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "VHS",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 72,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ca953d576beeed86",
+        "type": "ui_group",
+        "name": "Saída",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8526ad400f63f533",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8e734685719513fd",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "de22942e6716486e",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1915c964cdf31a66",
+        "type": "ui_group",
+        "name": "Entrada de CNPJ",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "74ed382881a8e498",
+        "type": "ui_group",
+        "name": "Dados CNPJ",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "206e4e5653073360",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "14d6e9031394c073",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "206e4e5653073360",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6b0d24ac93625a2d",
+        "type": "ui_tab",
+        "name": "Dados",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d1f9eeef30a14a39",
+        "type": "ui_group",
+        "name": "Oscar 2023",
+        "tab": "6b0d24ac93625a2d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a66edaf09101d497",
+        "type": "google-service-account",
+        "name": "FIAP VHS",
+        "scope": [
+            "https://www.googleapis.com/auth/cloud-platform"
+        ],
+        "way": "json",
+        "check_dialogflow": "",
+        "check_speech": ""
+    },
+    {
+        "id": "156a3d6933d9d01a",
+        "type": "ui_spacer",
+        "z": "9d0ec4dceb8510b5",
+        "name": "spacer",
+        "group": "ca953d576beeed86",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "648a8ed058f8219e",
+        "type": "ui_spacer",
+        "z": "9d0ec4dceb8510b5",
+        "name": "spacer",
+        "group": "ca953d576beeed86",
+        "order": 9,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "19dc9349.57f72d",
+        "type": "ui_group",
+        "name": "Google sheets",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e6548b0f.6183a8",
+        "type": "google-service-account",
+        "name": "",
+        "scope": [
+            "https://www.googleapis.com/auth/spreadsheets"
+        ],
+        "way": "json",
+        "check_dialogflow": "",
+        "check_speech": ""
+    },
+    {
+        "id": "ec08442a5c743fcd",
+        "type": "gauth",
+        "name": "usuario-vhs@fiap-vhs.iam.gserviceaccount.com"
+    },
+    {
+        "id": "c1b97542c33c013e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "de49a0ca24d2d7a5",
+        "type": "ui_tab",
+        "name": "Cadastro",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "780caf7e34a6793a",
+        "type": "ui_group",
+        "name": "Dados Cadastro",
+        "tab": "de49a0ca24d2d7a5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "466e95277cbf8d02",
+        "type": "ui_tab",
+        "name": "Confirmacao",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "71081a10aaaf243f",
+        "type": "ui_group",
+        "name": "Agradecimento",
+        "tab": "466e95277cbf8d02",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3db61798ca460944",
+        "type": "ui_spacer",
+        "z": "9d0ec4dceb8510b5",
+        "name": "spacer",
+        "group": "71081a10aaaf243f",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "edab6bc89da5c3da",
+        "type": "ui_form",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "label": "",
+        "group": "14d6e9031394c073",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Usuário",
+                "value": "user",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Senha",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "user": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "f691049ccac620d2",
+                "6d1d4341a4bb725b"
+            ]
+        ]
+    },
+    {
+        "id": "f691049ccac620d2",
+        "type": "switch",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "property": "payload.user",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Lucas",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Lucas",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 160,
+        "wires": [
+            [
+                "1e769ea60e8be52b"
+            ],
+            [
+                "4406ceeec57ec7da"
+            ]
+        ]
+    },
+    {
+        "id": "1e769ea60e8be52b",
+        "type": "switch",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "property": "payload.password",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1234",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "1234",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 140,
+        "wires": [
+            [
+                "e267c94a3ede4495"
+            ],
+            [
+                "41ffef6fc362d223"
+            ]
+        ]
+    },
+    {
+        "id": "4406ceeec57ec7da",
+        "type": "change",
+        "z": "9a11c264091c9c92",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Usuário inválido",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "c1456ab1650c56a5"
+            ]
+        ]
+    },
+    {
+        "id": "41ffef6fc362d223",
+        "type": "change",
+        "z": "9a11c264091c9c92",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Senha inválido",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 180,
+        "wires": [
+            [
+                "c1456ab1650c56a5"
+            ]
+        ]
+    },
+    {
+        "id": "c1456ab1650c56a5",
+        "type": "ui_toast",
+        "z": "9a11c264091c9c92",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 910,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e267c94a3ede4495",
+        "type": "change",
+        "z": "9a11c264091c9c92",
+        "name": "Liberação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Dados",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 60,
+        "wires": [
+            [
+                "b446823cd7971022",
+                "823810653e983d4c",
+                "37e50a53f60cc36f"
+            ]
+        ]
+    },
+    {
+        "id": "b446823cd7971022",
+        "type": "ui_ui_control",
+        "z": "9a11c264091c9c92",
+        "name": "Dados",
+        "events": "connect",
+        "x": 1210,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "823810653e983d4c",
+        "type": "change",
+        "z": "9a11c264091c9c92",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Acesso concedido",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 120,
+        "wires": [
+            [
+                "c1456ab1650c56a5"
+            ]
+        ]
+    },
+    {
+        "id": "6d1d4341a4bb725b",
+        "type": "debug",
+        "z": "9a11c264091c9c92",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "37e50a53f60cc36f",
+        "type": "template",
+        "z": "9a11c264091c9c92",
+        "name": "Mostrar Telas",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\":\n {\"show\": [\"Dados\"]\n  }\n  }",
+        "output": "json",
+        "x": 840,
+        "y": 80,
+        "wires": [
+            [
+                "b446823cd7971022",
+                "e7ed44ee4650d9c9"
+            ]
+        ]
+    },
+    {
+        "id": "e7ed44ee4650d9c9",
+        "type": "template",
+        "z": "9a11c264091c9c92",
+        "name": "Mostrar Telas",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\":\n {\"hide\": [\"Login\",\"Confirmacao\",\"Cadastro\"]\n  }\n  }",
+        "output": "json",
+        "x": 1100,
+        "y": 100,
+        "wires": [
+            [
+                "b446823cd7971022"
+            ]
+        ]
+    },
+    {
+        "id": "154e912b31b881e0",
+        "type": "ui_ui_control",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "events": "connect",
+        "x": 80,
+        "y": 680,
+        "wires": [
+            [
+                "75c61c26d5e98c22"
+            ]
+        ]
+    },
+    {
+        "id": "8ad30178334eab88",
+        "type": "change",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Login",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 520,
+        "wires": [
+            [
+                "2fa5e6d3f6887f48"
+            ]
+        ]
+    },
+    {
+        "id": "75c61c26d5e98c22",
+        "type": "switch",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "connect",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 580,
+        "wires": [
+            [
+                "8ad30178334eab88",
+                "d0e7a6e2c0a4a385"
+            ]
+        ]
+    },
+    {
+        "id": "d0e7a6e2c0a4a385",
+        "type": "template",
+        "z": "9a11c264091c9c92",
+        "name": "Esconde Telas",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\":\n {\"hide\": [\"Dados\",\"Confirmacao\"]\n  }\n  }",
+        "output": "json",
+        "x": 540,
+        "y": 600,
+        "wires": [
+            [
+                "2fa5e6d3f6887f48"
+            ]
+        ]
+    },
+    {
+        "id": "2fa5e6d3f6887f48",
+        "type": "ui_ui_control",
+        "z": "9a11c264091c9c92",
+        "name": "",
+        "events": "all",
+        "x": 650,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dff343fbe0bbd081",
+        "type": "ui_button",
+        "z": "4b95c071edb7dc65",
+        "name": "",
+        "group": "14d6e9031394c073",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "cadastro",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Cadastro",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "233f658d2128598e"
+            ]
+        ]
+    },
+    {
+        "id": "233f658d2128598e",
+        "type": "ui_ui_control",
+        "z": "4b95c071edb7dc65",
+        "name": "Cadastro",
+        "events": "all",
+        "x": 580,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acbfadadd30bdd05",
+        "type": "ui_form",
+        "z": "4b95c071edb7dc65",
+        "name": "",
+        "label": "Cadastro",
+        "group": "780caf7e34a6793a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Usuario",
+                "value": "Usuario",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Senha",
+                "value": "Senha",
+                "type": "password",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Email",
+                "value": "Email",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Usuario": "",
+            "Senha": "",
+            "Email": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 580,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "710f79d31cfe1168",
+        "type": "ui_ui_control",
+        "z": "4b95c071edb7dc65",
+        "name": "",
+        "events": "all",
+        "x": 480,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9eba62035627fef",
+        "type": "ui_button",
+        "z": "4b95c071edb7dc65",
+        "name": "",
+        "group": "780caf7e34a6793a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Login",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "710f79d31cfe1168"
+            ]
+        ]
+    },
+    {
+        "id": "104983cc2e7c7496",
+        "type": "ui_ui_control",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "events": "all",
+        "x": 940,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "668407817c107a51",
+        "type": "ui_button",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "group": "d1f9eeef30a14a39",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Tudo em Todo o Lugar ao Mesmo Tempo.",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Confirmacao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 620,
+        "y": 520,
+        "wires": [
+            [
+                "104983cc2e7c7496"
+            ]
+        ]
+    },
+    {
+        "id": "b0f56ebea5e774c4",
+        "type": "ui_button",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "group": "d1f9eeef30a14a39",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Elvis",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Confirmacao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "104983cc2e7c7496"
+            ]
+        ]
+    },
+    {
+        "id": "a6fd5df4011343c0",
+        "type": "ui_button",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "group": "d1f9eeef30a14a39",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Top Gun: Maverick.",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Confirmacao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 550,
+        "y": 480,
+        "wires": [
+            [
+                "104983cc2e7c7496"
+            ]
+        ]
+    },
+    {
+        "id": "14f32cd2adb57bad",
+        "type": "ui_button",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "group": "d1f9eeef30a14a39",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Avatar: O Caminho da Água",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Confirmacao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 440,
+        "wires": [
+            [
+                "104983cc2e7c7496"
+            ]
+        ]
+    },
+    {
+        "id": "ac9eb4f822df8164",
+        "type": "ui_button",
+        "z": "9d0ec4dceb8510b5",
+        "name": "",
+        "group": "d1f9eeef30a14a39",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Nada de Novo no Front.",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Confirmacao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "104983cc2e7c7496"
+            ]
+        ]
+    }
+]
